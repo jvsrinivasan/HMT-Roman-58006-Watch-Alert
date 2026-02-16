@@ -37,3 +37,5 @@ def send_alert():
 
 if check_watch():
     send_alert()
+
+print("Bot started")
