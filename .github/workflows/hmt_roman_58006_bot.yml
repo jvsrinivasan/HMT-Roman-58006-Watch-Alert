@@ -22,7 +22,7 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Run bot
-        run: python hmt_bot.py
+        run: python hmt_roman_58006_bot.py
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
